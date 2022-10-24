@@ -40,7 +40,7 @@ class AttendanceCrudController extends CrudController
     protected function setupListOperation()
     {
         CRUD::column('absence_date');
-        CRUD::column('congregation_id');
+        // CRUD::column('congregation_id');
         CRUD::addColumn([
             "name" => "congregation_id",
             "key" => "congregation_id",
